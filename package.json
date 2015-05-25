@@ -1,6 +1,6 @@
 {
   "name": "promise-done",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Propagate errors out of promise context.",
   "homepage": "https://github.com/valeriangalliat/promise-done",
   "license": "Unlicense",
