@@ -17,13 +17,13 @@
     "type": "git",
     "url": "https://github.com/valeriangalliat/promise-done.git"
   },
-  "devDependencies": {
-    "babel": "^4.5.0",
-    "promise": "^6.1.0"
-  },
   "scripts": {
     "build": "babel index.es6.js -o index.js",
     "prepublish": "$npm_package_scripts_build",
     "test": "$npm_package_scripts_build && babel-node test.js"
+  },
+  "devDependencies": {
+    "babel": "^4.5.0",
+    "promise": "^6.1.0"
   }
 }
