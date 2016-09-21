@@ -17,5 +17,5 @@ import done from 'promise-done'
 
 stuff()
   .then(otherStuff())
-  .then(null, done)
+  .catch(done)
 ```
